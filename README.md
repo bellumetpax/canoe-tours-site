@@ -83,3 +83,19 @@ Before considering the project complete, verify:
 - [ ] Site loads at http://127.0.0.1:8000 when served by FastAPI
 - [ ] All five pages load correctly when served by FastAPI
 - [ ] Server is bound to 127.0.0.1 only (not 0.0.0.0)
+
+ Next.js dev server runs and pages load on http://localhost:3000, except sometimes it runs on 3001 or 3002, but I think that's fine
+
+ Navigation works across Home/Tours/Pricing/About/Contact
+
+ Tailwind styles load correctly (not plain unstyled HTML)
+
+ Static build completes without errors
+
+ FastAPI server runs locally on 127.0.0.1:8000
+
+ FastAPI-served pages load at http://127.0.0.1:8000
+
+ Contact button opens an email client via mailto
+
+ Project committed and pushed to GitHub
